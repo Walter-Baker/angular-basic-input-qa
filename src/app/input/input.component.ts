@@ -1,9 +1,9 @@
-import { Component, Input } from '@angular/core'; // First, import Input
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-input',
   templateUrl: './input.component.html',
 })
 export class InputComponent {
-  @Input() item = ''; // decorate the property with @Input()
+
 }
